@@ -35,18 +35,6 @@ header.startup hr {
 header.startup h1 {
   font-size: 2rem; 
 }
-.btn,.btn-xl,.btn-primary{transition: all 0.5s;}
-
-.btn {
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 300px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.btn-xl {
-  padding: 1rem 2rem; 
-}
 
 .btn-primary {
   background-color: #F05F44;
@@ -58,4 +46,7 @@ header.startup h1 {
   border-width: 5px;
 
   cursor: pointer;
+}
+.mt-auto, .my-auto {
+    margin-top: 0!important;
 }
