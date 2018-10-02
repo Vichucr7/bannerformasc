@@ -49,5 +49,5 @@ header.startup h1 {
 }
 .mt-auto, .my-auto {
     flex-flow: column-center!important;
-    opacity: 0.5;
+    opacity: 0.3;
 }
