@@ -20,11 +20,10 @@ hr {
 }
 
 header.startup {
-  background-position: center;
-  /* background-image: url("logo.png"); */
-  background:linear-gradient(to bottom right, rgb(255, 255, 255), rgb(255, 251, 89));
+  background-image: url("Background.jpg");
   background-size: cover;
   height: 100%;
+  opacity: 0.8;
 }
 
 header.startup hr {
@@ -33,7 +32,13 @@ header.startup hr {
 }
 
 header.startup h1 {
-  font-size: 2rem; 
+  font-size: 5rem; 
+  color: firebrick;
+}
+h1 {
+  font-family: fantasy;
+  text-align: justify;
+  justify-content: center;
 }
 
 .btn-primary {
@@ -49,5 +54,10 @@ header.startup h1 {
 }
 .mt-auto, .my-auto {
     flex-flow: column-center!important;
-    opacity: 0.3;
+    opacity: 1;
 }
+
+hgroup {
+  object-fit: cover;
+}
+
